@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="priceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD166;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EF476F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#priceGrad)" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.42,0-8-3.58-8-8 s3.58-8,8-8s8,3.58,8,8S16.42,20,12,20z"/>
+  <path fill="url(#priceGrad)" d="M12.5,7H11v1.5h1.5c0.83,0,1.5,0.67,1.5,1.5s-0.67,1.5-1.5,1.5H11V13h1.5c1.38,0,2.5-1.12,2.5-2.5 S13.88,7,12.5,7z"/>
+  <path fill="url(#priceGrad)" d="M11,15h2v2h-2V15z"/>
+  <path fill="url(#priceGrad)" d="M11,5h2v2h-2V5z"/>
+</svg>

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satélites y Telecomunicaciones en México - Tefrex</title>
+    <meta name="description" content="Descubre cómo los satélites mexicanos apoyan las telecomunicaciones, navegación, respuesta a desastres y educación remota. Información sobre proyectos satelitales del gobierno.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <p>Este sitio utiliza cookies para mejorar su experiencia. Al continuar navegando, acepta nuestra <a href="privacy-cookies.html">Política de Cookies</a>, <a href="privacy-policy.html">Política de Privacidad</a> y <a href="terms.html">Términos de Uso</a>.</p>
+            <button id="acceptCookies">Aceptar</button>
+        </div>
+    </div>
+
+    <header class="site-header" id="siteHeader">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Tefrex</a>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tecnologia.html">Tecnología</a></li>
+                    <li><a href="educacion.html">Educación</a></li>
+                    <li><a href="movilidad.html">Movilidad</a></li>
+                    <li><a href="alertas.html">Alertas</a></li>
+                    <li><a href="participacion.html">Participación</a></li>
+                    <li><a href="satelites.html" class="active">Satélites</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="disclaimer-banner">
+        <div class="container">
+            <p>Este sitio web no es un sitio gubernamental oficial ni está afiliado con ninguna entidad gubernamental.</p>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Satélites y Telecomunicaciones en México</h1>
+                    <p class="subtitle">Cómo los satélites apoyan la conectividad, navegación y servicios esenciales en el territorio mexicano</p>
+                    
+                    <div class="hero-badges">
+                        <div class="hero-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="hero-badge-icon">
+                                <path d="M5,18.08V19H6.92L17.03,8.89L15.11,6.97L5,17.08M20.71,7.04C21.1,6.65 21.1,6.02 20.71,5.63L18.37,3.29C17.98,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87L20.71,7.04Z" fill="#06D6A0"/>
+                            </svg>
+                            <span class="hero-badge-text">Satélites Mexicanos</span>
+                        </div>
+                        <div class="hero-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="hero-badge-icon">
+                                <path d="M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M6.5,17.5L14.5,14L17.5,6.5L9.5,10L6.5,17.5M12,11.5A1.5,1.5 0 0,0 10.5,13A1.5,1.5 0 0,0 12,14.5A1.5,1.5 0 0,0 13.5,13A1.5,1.5 0 0,0 12,11.5Z" fill="#118AB2"/>
+                            </svg>
+                            <span class="hero-badge-text">Navegación GPS</span>
+                        </div>
+                        <div class="hero-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="hero-badge-icon">
+                                <path d="M12,6A3,3 0 0,0 9,9A3,3 0 0,0 12,12A3,3 0 0,0 15,9A3,3 0 0,0 12,6M12,14C9.33,14 4,15.34 4,18V20H20V18C20,15.34 14.67,14 12,14Z" fill="#EF476F"/>
+                            </svg>
+                            <span class="hero-badge-text">Conectividad Rural</span>
+                        </div>
+                        <div class="hero-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="hero-badge-icon">
+                                <path d="M12,3C7.03,3 3,7.03 3,12C3,16.97 7.03,21 12,21C16.97,21 21,16.97 21,12C21,7.03 16.97,3 12,3M14.53,12.53L9,15L9,9L14.53,11.47C14.83,11.62 14.83,12.38 14.53,12.53Z" fill="#FFD166"/>
+                            </svg>
+                            <span class="hero-badge-text">Proyectos Satelitales</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <article class="content-block" id="introduccion">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="introIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#118AB2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#introIconGrad)" />
+                            <path d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>La revolución satelital en México</h2>
+                    
+                    <p>Los satélites juegan un papel fundamental en el desarrollo tecnológico y de telecomunicaciones en México. Desde la transmisión de señales de televisión hasta la conectividad en zonas remotas, estos dispositivos orbitales son esenciales para mantener al país conectado e integrado en la era digital.</p>
+                    
+                    <p>México tiene una larga historia en el desarrollo de tecnología satelital, que comenzó en 1985 con el lanzamiento del primer satélite nacional, el Morelos I. Desde entonces, el país ha continuado invirtiendo en esta tecnología para mejorar las comunicaciones, la navegación, la observación terrestre y la respuesta ante desastres naturales.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="sateliteGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#073B4C;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#118AB2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#sateliteGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Evolución de Satélites Mexicanos</text>
+                            
+                            <line x1="100" y1="100" x2="500" y2="100" stroke="white" stroke-width="2" stroke-dasharray="5,5" />
+                            
+                            <circle cx="150" cy="100" r="10" fill="white" />
+                            <text x="150" y="130" font-family="Arial" font-size="14" fill="white" text-anchor="middle">1985</text>
+                            <text x="150" y="150" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Morelos I y II</text>
+                            
+                            <circle cx="250" cy="100" r="10" fill="white" />
+                            <text x="250" y="130" font-family="Arial" font-size="14" fill="white" text-anchor="middle">1993</text>
+                            <text x="250" y="150" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Solidaridad I y II</text>
+                            
+                            <circle cx="350" cy="100" r="10" fill="white" />
+                            <text x="350" y="130" font-family="Arial" font-size="14" fill="white" text-anchor="middle">2012</text>
+                            <text x="350" y="150" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Bicentenario</text>
+                            
+                            <circle cx="450" cy="100" r="10" fill="white" />
+                            <text x="450" y="130" font-family="Arial" font-size="14" fill="white" text-anchor="middle">2017</text>
+                            <text x="450" y="150" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Morelos 3</text>
+                        </svg>
+                    </div>
+                    
+                    <p>En esta página, exploraremos los diferentes aspectos de la tecnología satelital en México, desde los satélites actualmente en órbita hasta las aplicaciones prácticas en áreas como internet rural, navegación GPS, respuesta a desastres y educación a distancia.</p>
+                </article>
+
+                <article class="content-block" id="satelites-mexicanos">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="satelitesIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#EF476F;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#FFD166;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#satelitesIconGrad)" />
+                            <path d="M5,18.08V19H6.92L17.03,8.89L15.11,6.97L5,17.08M20.71,7.04C21.1,6.65 21.1,6.02 20.71,5.63L18.37,3.29C17.98,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87L20.71,7.04Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>1. Satélites mexicanos activos</h2>
+                    
+                    <p>México cuenta actualmente con varios satélites en órbita que proporcionan servicios esenciales para las telecomunicaciones, la seguridad nacional y la observación terrestre. Estos satélites son administrados principalmente por la Agencia Espacial Mexicana (AEM) y por empresas privadas que operan en el sector.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="100%" height="250">
+                            <defs>
+                                <linearGradient id="activeSatGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#EF476F;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#FFD166;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="190" rx="20" fill="url(#activeSatGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Satélites Mexicanos Activos</text>
+                            
+                            <circle cx="150" cy="120" r="40" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2" />
+                            <text x="150" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Morelos 3</text>
+                            <text x="150" y="135" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Comunicaciones</text>
+                            <text x="150" y="150" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Gubernamentales</text>
+                            
+                            <circle cx="300" cy="120" r="40" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2" />
+                            <text x="300" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Bicentenario</text>
+                            <text x="300" y="135" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Observación</text>
+                            <text x="300" y="150" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Terrestre</text>
+                            
+                            <circle cx="450" cy="120" r="40" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2" />
+                            <text x="450" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Satmex 8</text>
+                            <text x="450" y="135" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Telecomunicaciones</text>
+                            <text x="450" y="150" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Comerciales</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Principales satélites en operación</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Morelos 3 (MEXSAT-2)</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Satélite de comunicaciones gubernamentales lanzado en 2015.</p>
+                                <ul>
+                                    <li><strong>Función principal</strong>: Comunicaciones seguras para seguridad nacional y servicios gubernamentales</li>
+                                    <li><strong>Cobertura</strong>: Todo el territorio mexicano, incluyendo zonas marítimas</li>
+                                    <li><strong>Vida útil</strong>: 15 años (operativo hasta aproximadamente 2030)</li>
+                                    <li><strong>Operador</strong>: Secretaría de Comunicaciones y Transportes (SCT)</li>
+                                </ul>
+                                <p>Este satélite forma parte del Sistema Satelital Mexicano (MEXSAT) y proporciona servicios de comunicación móvil en banda L para aplicaciones de seguridad nacional.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Bicentenario (MEXSAT-3)</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Satélite de comunicaciones fijas lanzado en 2012.</p>
+                                <ul>
+                                    <li><strong>Función principal</strong>: Servicios de banda ancha y transmisión de datos</li>
+                                    <li><strong>Cobertura</strong>: México, sur de Estados Unidos y Centroamérica</li>
+                                    <li><strong>Vida útil</strong>: 15 años (operativo hasta aproximadamente 2027)</li>
+                                    <li><strong>Operador</strong>: Telecomunicaciones de México (Telecomm)</li>
+                                </ul>
+                                <p>El Bicentenario proporciona servicios de internet, telefonía y transmisión de datos para instituciones gubernamentales y comunidades rurales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Satmex 8 (Eutelsat 117 West A)</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Satélite de comunicaciones comerciales lanzado en 2013.</p>
+                                <ul>
+                                    <li><strong>Función principal</strong>: Servicios de televisión, internet y telefonía</li>
+                                    <li><strong>Cobertura</strong>: América del Norte, Central y del Sur</li>
+                                    <li><strong>Vida útil</strong>: 15 años (operativo hasta aproximadamente 2028)</li>
+                                    <li><strong>Operador</strong>: Eutelsat (anteriormente Satmex)</li>
+                                </ul>
+                                <p>Aunque originalmente fue lanzado por la empresa mexicana Satmex, ahora es operado por Eutelsat tras la adquisición de la compañía en 2014.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>¿Sabías que?</h3>
+                        <p>México fue el primer país latinoamericano en tener satélites propios con el lanzamiento de los Morelos I y II en 1985. Estos satélites revolucionaron las telecomunicaciones en el país, permitiendo la transmisión de señales de televisión a zonas remotas por primera vez.</p>
+                    </div>
+                </article>
+
+                <article class="content-block" id="internet-satelital">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="internetIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#073B4C;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#internetIconGrad)" />
+                            <path d="M1,9L3,11C7.97,6.03 16.03,6.03 21,11L23,9C16.93,2.93 7.08,2.93 1,9M9,17L12,20L15,17C13.35,15.34 10.66,15.34 9,17M5,13L7,15C9.76,12.24 14.24,12.24 17,15L19,13C15.14,9.14 8.87,9.14 5,13Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>2. Internet vía satélite en México</h2>
+                    
+                    <p>El internet vía satélite representa una solución crucial para conectar a las comunidades rurales y remotas de México que no tienen acceso a infraestructura terrestre de telecomunicaciones. Esta tecnología permite superar las barreras geográficas y proporcionar conectividad en áreas donde las redes de fibra óptica o celulares no llegan.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="internetSatGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#073B4C;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#internetSatGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Cobertura de Internet en México</text>
+                            
+                            <rect x="100" y="80" width="120" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="160" y="105" font-family="Arial" font-size="14" fill="#073B4C" text-anchor="middle">Fibra Óptica</text>
+                            <text x="160" y="125" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">23.5 millones</text>
+                            <text x="160" y="140" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">de hogares</text>
+                            
+                            <rect x="240" y="80" width="120" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="300" y="105" font-family="Arial" font-size="14" fill="#073B4C" text-anchor="middle">4G/5G</text>
+                            <text x="300" y="125" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">92% población</text>
+                            <text x="300" y="140" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">urbana</text>
+                            
+                            <rect x="380" y="80" width="120" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="440" y="105" font-family="Arial" font-size="14" fill="#073B4C" text-anchor="middle">Satélite</text>
+                            <text x="440" y="125" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">100% cobertura</text>
+                            <text x="440" y="140" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">potencial</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Proveedores y servicios disponibles</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Starlink</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Servicio de internet satelital de SpaceX que comenzó operaciones en México en 2022.</p>
+                                <ul>
+                                    <li><strong>Velocidad</strong>: 100-200 Mbps de descarga</li>
+                                    <li><strong>Latencia</strong>: 20-40 ms</li>
+                                    <li><strong>Cobertura</strong>: Todo el territorio mexicano</li>
+                                    <li><strong>Costo mensual</strong>: Aproximadamente 1,100 MXN (más equipo inicial)</li>
+                                </ul>
+                                <p>Starlink utiliza una constelación de satélites en órbita baja (LEO), lo que permite velocidades más altas y menor latencia que los servicios satelitales tradicionales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Hughes Net</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Proveedor tradicional de internet satelital con presencia en México desde hace más de una década.</p>
+                                <ul>
+                                    <li><strong>Velocidad</strong>: 25-50 Mbps de descarga</li>
+                                    <li><strong>Latencia</strong>: 600-800 ms</li>
+                                    <li><strong>Cobertura</strong>: Todo el territorio mexicano</li>
+                                    <li><strong>Costo mensual</strong>: Desde 700 MXN (más equipo inicial)</li>
+                                </ul>
+                                <p>Hughes Net utiliza satélites geoestacionarios, lo que resulta en mayor latencia pero con costos más accesibles para muchas comunidades rurales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Viasat</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Proveedor internacional con servicios específicos para el mercado mexicano.</p>
+                                <ul>
+                                    <li><strong>Velocidad</strong>: 30-100 Mbps de descarga</li>
+                                    <li><strong>Latencia</strong>: 500-700 ms</li>
+                                    <li><strong>Cobertura</strong>: Principalmente centro y sur de México</li>
+                                    <li><strong>Costo mensual</strong>: Desde 800 MXN (más equipo inicial)</li>
+                                </ul>
+                                <p>Viasat ofrece planes específicos para pequeñas empresas y comunidades rurales, con opciones de conectividad comunitaria compartida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Programa de Conectividad Rural</h3>
+                        <p>El gobierno mexicano, a través de la Secretaría de Comunicaciones y Transportes (SCT), ha implementado el programa "Internet para Todos" que incluye soluciones satelitales para llevar conectividad a más de 30,000 comunidades rurales. Este programa utiliza tanto satélites mexicanos como acuerdos con proveedores internacionales para garantizar el acceso a internet en zonas marginadas.</p>
+                    </div>
+                </article>
+
+                <article class="content-block" id="gps-geolocalizacion">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="gpsIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#118AB2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#FFD166;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#gpsIconGrad)" />
+                            <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>3. GPS y geolocalización en México</h2>
+                    
+                    <p>Los sistemas de posicionamiento global (GPS) y geolocalización satelital han transformado numerosos aspectos de la vida cotidiana y la economía en México. Desde la navegación personal hasta aplicaciones industriales, estos sistemas proporcionan datos precisos de ubicación que impulsan la innovación en múltiples sectores.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="gpsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#118AB2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#FFD166;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#gpsGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Sistemas de Navegación Satelital</text>
+                            
+                            <rect x="100" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="150" y="105" font-family="Arial" font-size="14" fill="#118AB2" text-anchor="middle">GPS</text>
+                            <text x="150" y="125" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Estados Unidos</text>
+                            <text x="150" y="140" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">24+ satélites</text>
+                            
+                            <rect x="220" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="270" y="105" font-family="Arial" font-size="14" fill="#118AB2" text-anchor="middle">GLONASS</text>
+                            <text x="270" y="125" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Rusia</text>
+                            <text x="270" y="140" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">24+ satélites</text>
+                            
+                            <rect x="340" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="390" y="105" font-family="Arial" font-size="14" fill="#118AB2" text-anchor="middle">Galileo</text>
+                            <text x="390" y="125" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Unión Europea</text>
+                            <text x="390" y="140" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">30+ satélites</text>
+                            
+                            <rect x="460" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="510" y="105" font-family="Arial" font-size="14" fill="#118AB2" text-anchor="middle">BeiDou</text>
+                            <text x="510" y="125" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">China</text>
+                            <text x="510" y="140" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">35+ satélites</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Aplicaciones en México</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Transporte y logística</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>El GPS ha revolucionado la gestión de flotas y la logística en México.</p>
+                                <ul>
+                                    <li><strong>Seguimiento de mercancías</strong>: Rastreo en tiempo real de envíos y carga</li>
+                                    <li><strong>Optimización de rutas</strong>: Reducción de costos de combustible y tiempos de entrega</li>
+                                    <li><strong>Seguridad</strong>: Monitoreo de vehículos para prevenir robos y recuperar unidades</li>
+                                    <li><strong>Aplicaciones de transporte</strong>: Servicios como Uber, DiDi y Beat que dependen de geolocalización precisa</li>
+                                </ul>
+                                <p>Según datos de la Cámara Nacional del Autotransporte de Carga (CANACAR), el uso de sistemas GPS ha reducido hasta un 30% los incidentes de robo en el transporte de mercancías.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Agricultura de precisión</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>La geolocalización satelital está transformando el sector agrícola mexicano.</p>
+                                <ul>
+                                    <li><strong>Mapeo de terrenos</strong>: Análisis detallado de parcelas y condiciones del suelo</li>
+                                    <li><strong>Siembra y cosecha automatizada</strong>: Tractores y maquinaria guiados por GPS</li>
+                                    <li><strong>Aplicación precisa de insumos</strong>: Fertilizantes y pesticidas aplicados exactamente donde se necesitan</li>
+                                    <li><strong>Monitoreo de cultivos</strong>: Seguimiento del desarrollo de cultivos combinado con imágenes satelitales</li>
+                                </ul>
+                                <p>La agricultura de precisión ha permitido aumentos de productividad de hasta un 20% en cultivos como maíz, trigo y caña de azúcar en diversas regiones de México.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Seguridad y emergencias</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Los sistemas de geolocalización son fundamentales para la seguridad pública y respuesta a emergencias.</p>
+                                <ul>
+                                    <li><strong>Localización de llamadas de emergencia</strong>: Servicios 911 con capacidad de ubicar a las personas que llaman</li>
+                                    <li><strong>Coordinación de rescates</strong>: Ubicación precisa para equipos de búsqueda y rescate</li>
+                                    <li><strong>Monitoreo de delincuentes</strong>: Brazaletes con GPS para personas en libertad condicional</li>
+                                    <li><strong>Aplicaciones de seguridad personal</strong>: Apps que permiten compartir ubicación con contactos de confianza</li>
+                                </ul>
+                                <p>El Sistema Nacional de Emergencias 911 procesa más de 10 millones de llamadas georreferenciadas anualmente en México.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Estaciones de Referencia GNSS</h3>
+                        <p>México cuenta con la Red Geodésica Nacional Activa (RGNA), un conjunto de más de 30 estaciones de referencia GNSS (Global Navigation Satellite System) distribuidas por todo el país. Esta red, administrada por el INEGI, proporciona datos de posicionamiento de alta precisión para aplicaciones científicas, cartográficas y de ingeniería, con precisiones de hasta 2-3 centímetros.</p>
+                    </div>
+                </article>
+
+                <article class="content-block" id="satelites-desastres">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="desastresIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#EF476F;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#073B4C;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#desastresIconGrad)" />
+                            <path d="M12,2L1,21H23M12,6L19.53,19H4.47M11,10V14H13V10M11,16V18H13V16" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>4. Satélites en la gestión de desastres</h2>
+                    
+                    <p>México es un país expuesto a diversos riesgos naturales, incluyendo terremotos, huracanes, inundaciones y actividad volcánica. Los satélites juegan un papel fundamental en la prevención, monitoreo y respuesta a estos desastres, proporcionando información crítica que salva vidas y ayuda en la recuperación.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="desastresGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#EF476F;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#073B4C;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#desastresGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Ciclo de Gestión de Desastres</text>
+                            
+                            <circle cx="300" cy="100" r="50" fill="none" stroke="white" stroke-width="2" />
+                            
+                            <path d="M300,50 A50,50 0 0,1 343.3,75" fill="none" stroke="white" stroke-width="4" />
+                            <text x="335" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Prevención</text>
+                            
+                            <path d="M343.3,75 A50,50 0 0,1 343.3,125" fill="none" stroke="white" stroke-width="4" />
+                            <text x="370" y="100" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Preparación</text>
+                            
+                            <path d="M343.3,125 A50,50 0 0,1 300,150" fill="none" stroke="white" stroke-width="4" />
+                            <text x="335" y="145" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Respuesta</text>
+                            
+                            <path d="M300,150 A50,50 0 0,1 256.7,125" fill="none" stroke="white" stroke-width="4" />
+                            <text x="265" y="145" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Recuperación</text>
+                            
+                            <path d="M256.7,125 A50,50 0 0,1 256.7,75" fill="none" stroke="white" stroke-width="4" />
+                            <text x="230" y="100" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Mitigación</text>
+                            
+                            <path d="M256.7,75 A50,50 0 0,1 300,50" fill="none" stroke="white" stroke-width="4" />
+                            <text x="265" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Monitoreo</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Aplicaciones satelitales en emergencias</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Monitoreo y alerta temprana</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Los satélites proporcionan datos críticos para sistemas de alerta temprana ante desastres naturales.</p>
+                                <ul>
+                                    <li><strong>Seguimiento de huracanes</strong>: Imágenes satelitales que permiten predecir trayectorias y fuerza</li>
+                                    <li><strong>Monitoreo de actividad volcánica</strong>: Detección de cambios de temperatura y emisiones de gases</li>
+                                    <li><strong>Detección de inundaciones</strong>: Imágenes radar que pueden penetrar nubes para evaluar zonas afectadas</li>
+                                    <li><strong>Monitoreo de sequías</strong>: Análisis de vegetación y humedad del suelo para anticipar crisis agrícolas</li>
+                                </ul>
+                                <p>El Centro Nacional de Prevención de Desastres (CENAPRED) utiliza datos de satélites como GOES-16 y Sentinel para monitorear constantemente amenazas naturales en todo el territorio mexicano.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Comunicaciones de emergencia</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Cuando las redes terrestres fallan, los satélites mantienen las comunicaciones esenciales.</p>
+                                <ul>
+                                    <li><strong>Teléfonos satelitales</strong>: Utilizados por equipos de rescate y autoridades en zonas afectadas</li>
+                                    <li><strong>Terminales VSAT</strong>: Estaciones portátiles que proporcionan internet y telefonía en zonas de desastre</li>
+                                    <li><strong>Sistemas de radiodifusión</strong>: Transmisión de información crítica a poblaciones afectadas</li>
+                                    <li><strong>Coordinación de respuesta</strong>: Comunicación entre diferentes agencias y equipos de rescate</li>
+                                </ul>
+                                <p>Tras el terremoto de 2017 en la Ciudad de México, las comunicaciones satelitales fueron fundamentales para coordinar los esfuerzos de rescate cuando muchas redes terrestres quedaron fuera de servicio.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Evaluación de daños</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Las imágenes satelitales permiten evaluar rápidamente la magnitud de los desastres.</p>
+                                <ul>
+                                    <li><strong>Mapeo de áreas afectadas</strong>: Identificación rápida de zonas dañadas</li>
+                                    <li><strong>Análisis de infraestructura</strong>: Evaluación de daños en carreteras, puentes y edificios</li>
+                                    <li><strong>Planificación de evacuaciones</strong>: Identificación de rutas seguras y zonas de riesgo</li>
+                                    <li><strong>Estimación de población afectada</strong>: Cálculo de personas impactadas para dimensionar la ayuda necesaria</li>
+                                </ul>
+                                <p>La Agencia Espacial Mexicana (AEM) colabora con agencias internacionales como la NASA y la ESA para obtener imágenes satelitales de alta resolución durante emergencias.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Carta Internacional del Espacio y los Grandes Desastres</h3>
+                        <p>México es miembro de la "Carta Internacional del Espacio y los Grandes Desastres", un acuerdo multinacional que proporciona imágenes satelitales gratuitas durante emergencias. Esta colaboración ha sido activada en múltiples ocasiones para desastres en México, incluyendo los terremotos de 2017, huracanes como Patricia (2015) y Willa (2018), y para monitorear erupciones volcánicas como la del Popocatépetl.</p>
+                    </div>
+                </article>
+
+                <article class="content-block" id="educacion-cobertura">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="educacionIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#FFD166;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#educacionIconGrad)" />
+                            <path d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>5. Educación y cobertura en zonas remotas</h2>
+                    
+                    <p>Los satélites juegan un papel crucial en la democratización del acceso a la educación y servicios básicos en las zonas más remotas y marginadas de México. A través de la tecnología satelital, comunidades que históricamente han estado desconectadas pueden acceder a recursos educativos, telemedicina y otros servicios esenciales.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="educacionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#FFD166;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#educacionGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Conectividad en Zonas Remotas</text>
+                            
+                            <rect x="100" y="80" width="400" height="20" rx="10" fill="rgba(255,255,255,0.3)" />
+                            
+                            <rect x="100" y="80" width="320" height="20" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="110" y="94" font-family="Arial" font-size="12" fill="#073B4C">80% Cobertura urbana con fibra/4G</text>
+                            
+                            <rect x="100" y="110" width="400" height="20" rx="10" fill="rgba(255,255,255,0.3)" />
+                            
+                            <rect x="100" y="110" width="160" height="20" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="110" y="124" font-family="Arial" font-size="12" fill="#073B4C">40% Cobertura rural con fibra/4G</text>
+                            
+                            <rect x="100" y="140" width="400" height="20" rx="10" fill="rgba(255,255,255,0.3)" />
+                            
+                            <rect x="100" y="140" width="400" height="20" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="110" y="154" font-family="Arial" font-size="12" fill="#073B4C">100% Cobertura potencial con satélites</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Iniciativas de educación satelital</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Telesecundaria</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Programa educativo que utiliza transmisiones satelitales para llevar educación secundaria a comunidades rurales.</p>
+                                <ul>
+                                    <li><strong>Alcance</strong>: Más de 20,000 escuelas en todo el país</li>
+                                    <li><strong>Estudiantes beneficiados</strong>: Aproximadamente 1.3 millones</li>
+                                    <li><strong>Tecnología</strong>: Transmisiones vía satélite Morelos 3 y Bicentenario</li>
+                                    <li><strong>Contenido</strong>: Clases grabadas, material didáctico y programación educativa</li>
+                                </ul>
+                                <p>Este programa ha sido fundamental para reducir la brecha educativa en zonas donde no es viable establecer escuelas secundarias tradicionales debido a la baja densidad poblacional.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Aulas Satelitales</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Espacios educativos equipados con tecnología satelital para comunidades aisladas.</p>
+                                <ul>
+                                    <li><strong>Equipamiento</strong>: Antenas satelitales, computadoras, proyectores y material didáctico</li>
+                                    <li><strong>Conectividad</strong>: Internet satelital de banda ancha</li>
+                                    <li><strong>Servicios</strong>: Educación a distancia, capacitación y acceso a bibliotecas digitales</li>
+                                    <li><strong>Cobertura</strong>: Más de 5,000 comunidades en zonas marginadas</li>
+                                </ul>
+                                <p>Las aulas satelitales funcionan como centros comunitarios que no solo ofrecen educación formal, sino también capacitación para adultos y acceso a servicios digitales gubernamentales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Telemedicina Satelital</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Servicios médicos a distancia para comunidades sin acceso a centros de salud especializados.</p>
+                                <ul>
+                                    <li><strong>Consultas remotas</strong>: Conexión de pacientes con especialistas en hospitales urbanos</li>
+                                    <li><strong>Diagnóstico a distancia</strong>: Transmisión de imágenes médicas y resultados de laboratorio</li>
+                                    <li><strong>Capacitación médica</strong>: Formación continua para personal de salud en zonas remotas</li>
+                                    <li><strong>Emergencias</strong>: Asistencia médica en tiempo real para casos críticos</li>
+                                </ul>
+                                <p>El programa de Telemedicina de la Secretaría de Salud ha realizado más de 50,000 consultas anuales a través de conexiones satelitales, beneficiando principalmente a comunidades indígenas y rurales.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Programa México Conectado</h3>
+                        <p>Esta iniciativa gubernamental busca garantizar el acceso a internet en espacios públicos como escuelas, bibliotecas, centros de salud y plazas comunitarias. En zonas donde no es viable la conectividad terrestre, se implementan soluciones satelitales. Actualmente, más de 15,000 sitios públicos en zonas rurales cuentan con internet satelital gracias a este programa, beneficiando a aproximadamente 4 millones de mexicanos en comunidades marginadas.</p>
+                    </div>
+                </article>
+
+                <article class="content-block" id="proyectos-gobierno">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="proyectosIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#073B4C;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#EF476F;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#proyectosIconGrad)" />
+                            <path d="M2,3H22C23.05,3 24,3.95 24,5V19C24,20.05 23.05,21 22,21H2C0.95,21 0,20.05 0,19V5C0,3.95 0.95,3 2,3M14,6V7H22V6H14M14,8V9H21.5L22,9V8H14M8,13.91C6,13.91 2,15 2,17V18H14V17C14,15 10,13.91 8,13.91M8,6A3,3 0 0,0 5,9A3,3 0 0,0 8,12A3,3 0 0,0 11,9A3,3 0 0,0 8,6Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>6. Proyectos gubernamentales en tecnología satelital</h2>
+                    
+                    <p>El gobierno mexicano ha impulsado diversos proyectos estratégicos en el ámbito de la tecnología satelital, reconociendo su importancia para la soberanía tecnológica, el desarrollo económico y la inclusión digital. A través de la Agencia Espacial Mexicana (AEM) y otras instituciones, se han establecido iniciativas ambiciosas para fortalecer la presencia de México en el espacio.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="proyectosGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#073B4C;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#EF476F;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#proyectosGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Inversión en Proyectos Satelitales</text>
+                            
+                            <rect x="100" y="80" width="50" height="70" fill="rgba(255,255,255,0.8)" />
+                            <rect x="160" y="100" width="50" height="50" fill="rgba(255,255,255,0.8)" />
+                            <rect x="220" y="70" width="50" height="80" fill="rgba(255,255,255,0.8)" />
+                            <rect x="280" y="90" width="50" height="60" fill="rgba(255,255,255,0.8)" />
+                            <rect x="340" y="60" width="50" height="90" fill="rgba(255,255,255,0.8)" />
+                            <rect x="400" y="50" width="50" height="100" fill="rgba(255,255,255,0.8)" />
+                            <rect x="460" y="80" width="50" height="70" fill="rgba(255,255,255,0.8)" />
+                            
+                            <text x="125" y="160" font-family="Arial" font-size="10" fill="white" text-anchor="middle">2018</text>
+                            <text x="185" y="160" font-family="Arial" font-size="10" fill="white" text-anchor="middle">2019</text>
+                            <text x="245" y="160" font-family="Arial" font-size="10" fill="white" text-anchor="middle">2020</text>
+                            <text x="305" y="160" font-family="Arial" font-size="10" fill="white" text-anchor="middle">2021</text>
+                            <text x="365" y="160" font-family="Arial" font-size="10" fill="white" text-anchor="middle">2022</text>
+                            <text x="425" y="160" font-family="Arial" font-size="10" fill="white" text-anchor="middle">2023</text>
+                            <text x="485" y="160" font-family="Arial" font-size="10" fill="white" text-anchor="middle">2024</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Principales iniciativas satelitales</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Sistema Satelital Mexicano (MEXSAT)</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Programa insignia del gobierno mexicano para garantizar comunicaciones seguras y confiables.</p>
+                                <ul>
+                                    <li><strong>Componentes</strong>: Morelos 3 (operativo) y Bicentenario (operativo)</li>
+                                    <li><strong>Inversión</strong>: Aproximadamente 1,200 millones de dólares</li>
+                                    <li><strong>Aplicaciones</strong>: Seguridad nacional, comunicaciones gubernamentales y servicios sociales</li>
+                                    <li><strong>Administración</strong>: Secretaría de Comunicaciones y Transportes (SCT) y Telecomm</li>
+                                </ul>
+                                <p>MEXSAT representa la apuesta más importante de México por la autonomía en comunicaciones satelitales, especialmente para aplicaciones estratégicas y de seguridad nacional.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Programa de Nanosatélites Educativos</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Iniciativa para desarrollar pequeños satélites con fines educativos y de investigación.</p>
+                                <ul>
+                                    <li><strong>Proyectos</strong>: AztechSat-1 (lanzado en 2019) y AztechSat-2 (en desarrollo)</li>
+                                    <li><strong>Colaboración</strong>: NASA, universidades mexicanas y AEM</li>
+                                    <li><strong>Objetivos</strong>: Formación de talento, desarrollo tecnológico y experimentación</li>
+                                    <li><strong>Características</strong>: CubeSats de bajo costo con misiones específicas de investigación</li>
+                                </ul>
+                                <p>El AztechSat-1 fue el primer nanosatélite mexicano desplegado desde la Estación Espacial Internacional, marcando un hito en la colaboración espacial entre México y Estados Unidos.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Proyecto de Observación Terrestre</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Iniciativa para desarrollar capacidades nacionales en observación satelital del territorio.</p>
+                                <ul>
+                                    <li><strong>Objetivos</strong>: Monitoreo ambiental, gestión de recursos naturales y seguridad</li>
+                                    <li><strong>Estrategia</strong>: Combinación de desarrollo propio y acuerdos internacionales</li>
+                                    <li><strong>Colaboraciones</strong>: Acuerdos con ESA, JAXA y agencias espaciales latinoamericanas</li>
+                                    <li><strong>Aplicaciones</strong>: Agricultura, urbanismo, gestión de desastres y cambio climático</li>
+                                </ul>
+                                <p>México está desarrollando el Centro de Procesamiento de Datos Satelitales, que permitirá aprovechar imágenes de diversos satélites internacionales para aplicaciones nacionales.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Plan de Órbita 2.0</h3>
+                        <p>La Agencia Espacial Mexicana ha desarrollado el "Plan de Órbita 2.0", una estrategia a largo plazo para el desarrollo del sector espacial mexicano. Este plan contempla el fortalecimiento de la infraestructura satelital, la formación de capital humano especializado, el desarrollo de la industria espacial nacional y la cooperación internacional. El objetivo es posicionar a México como un actor relevante en el ámbito espacial latinoamericano para 2030, con capacidades propias de diseño, construcción y operación de satélites.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">tefrex.com</a>
+                    <p>Información útil sobre telecomunicaciones en México</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="about.html">Sobre Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="terms.html">Términos de Uso</a></li>
+                        <li><a href="privacy-policy.html">Política de Privacidad</a></li>
+                        <li><a href="privacy-cookies.html">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 tefrex.com. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

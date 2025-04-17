@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participación Ciudadana Digital - Tefrex</title>
+    <meta name="description" content="Descubre las herramientas digitales para la participación ciudadana en México: plataformas de consulta, aplicaciones de gobierno, transparencia y voto electrónico.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <p>Este sitio utiliza cookies para mejorar su experiencia. Al continuar navegando, acepta nuestra <a href="privacy-cookies.html">Política de Cookies</a>, <a href="privacy-policy.html">Política de Privacidad</a> y <a href="terms.html">Términos de Uso</a>.</p>
+            <button id="acceptCookies">Aceptar</button>
+        </div>
+    </div>
+
+    <header class="site-header" id="siteHeader">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">tefrex.com</a>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tecnologia.html">Tecnología</a></li>
+                    <li><a href="educacion.html">Educación</a></li>
+                    <li><a href="movilidad.html">Movilidad</a></li>
+                    <li><a href="alertas.html">Alertas</a></li>
+                    <li><a href="participacion.html" class="active">Participación</a></li>
+                    <li><a href="satelites.html">Satélites</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="disclaimer-banner">
+        <div class="container">
+            <p>Este sitio web no es un sitio gubernamental oficial ni está afiliado con ninguna entidad gubernamental.</p>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Participación Ciudadana Digital en México</h1>
+                <p>Plataformas y herramientas que transforman la interacción entre ciudadanos y gobierno</p>
+                
+                <div class="hero-badges">
+                    <div class="hero-badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="hero-badge-icon">
+                            <path d="M18,22A2,2 0 0,0 20,20V4C20,2.89 19.1,2 18,2H12V9L9.5,7.5L7,9V2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18Z" fill="#06D6A0"/>
+                        </svg>
+                        <span class="hero-badge-text">Plataformas de consulta</span>
+                    </div>
+                    <div class="hero-badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="hero-badge-icon">
+                            <path d="M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M17,13H13V17H11V13H7V11H11V7H13V11H17V13Z" fill="#118AB2"/>
+                        </svg>
+                        <span class="hero-badge-text">Transparencia gubernamental</span>
+                    </div>
+                    <div class="hero-badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="hero-badge-icon">
+                            <path d="M18,22A2,2 0 0,0 20,20V4C20,2.89 19.1,2 18,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18Z" fill="#EF476F"/>
+                        </svg>
+                        <span class="hero-badge-text">Voto electrónico</span>
+                    </div>
+                    <div class="hero-badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="hero-badge-icon">
+                            <path d="M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,10.5A1.5,1.5 0 0,1 13.5,12A1.5,1.5 0 0,1 12,13.5A1.5,1.5 0 0,1 10.5,12A1.5,1.5 0 0,1 12,10.5M7.5,10.5A1.5,1.5 0 0,1 9,12A1.5,1.5 0 0,1 7.5,13.5A1.5,1.5 0 0,1 6,12A1.5,1.5 0 0,1 7.5,10.5M16.5,10.5A1.5,1.5 0 0,1 18,12A1.5,1.5 0 0,1 16.5,13.5A1.5,1.5 0 0,1 15,12A1.5,1.5 0 0,1 16.5,10.5Z" fill="#FFD166"/>
+                        </svg>
+                        <span class="hero-badge-text">Aplicaciones de gobierno</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <article class="content-block" id="introduccion">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="introIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#118AB2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#introIconGrad)" />
+                            <path d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>La revolución de la participación ciudadana digital</h2>
+                    
+                    <p>La digitalización de los procesos de participación ciudadana en México representa una transformación profunda en la relación entre el gobierno y la sociedad. Las nuevas tecnologías han abierto canales de comunicación bidireccional que permiten a los ciudadanos involucrarse activamente en la toma de decisiones públicas, la fiscalización de recursos y la colaboración en proyectos gubernamentales.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="introGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#118AB2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#introGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Evolución de la Participación Ciudadana</text>
+                            
+                            <line x1="100" y1="100" x2="500" y2="100" stroke="white" stroke-width="2" stroke-dasharray="5,5" />
+                            
+                            <circle cx="150" cy="100" r="10" fill="white" />
+                            <text x="150" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">1990s</text>
+                            <text x="150" y="130" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Participación</text>
+                            <text x="150" y="145" font-family="Arial" font-size="10" fill="white" text-anchor="middle">presencial</text>
+                            
+                            <circle cx="250" cy="100" r="10" fill="white" />
+                            <text x="250" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">2000s</text>
+                            <text x="250" y="130" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Portales</text>
+                            <text x="250" y="145" font-family="Arial" font-size="10" fill="white" text-anchor="middle">informativos</text>
+                            
+                            <circle cx="350" cy="100" r="10" fill="white" />
+                            <text x="350" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">2010s</text>
+                            <text x="350" y="130" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Plataformas</text>
+                            <text x="350" y="145" font-family="Arial" font-size="10" fill="white" text-anchor="middle">interactivas</text>
+                            
+                            <circle cx="450" cy="100" r="10" fill="white" />
+                            <text x="450" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">2020s</text>
+                            <text x="450" y="130" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Ecosistema</text>
+                            <text x="450" y="145" font-family="Arial" font-size="10" fill="white" text-anchor="middle">digital integrado</text>
+                        </svg>
+                    </div>
+                    
+                    <p>Según datos del Instituto Nacional de Estadística y Geografía (INEGI), el 72% de los mexicanos con acceso a internet ha utilizado al menos una vez alguna plataforma digital gubernamental, lo que representa un incremento del 45% en los últimos cinco años. Este crecimiento refleja tanto la expansión de la infraestructura digital como el interés ciudadano por participar en los asuntos públicos.</p>
+                    
+                    <div class="comparison-cards">
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Beneficios de la participación digital</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Accesibilidad</strong>: Participación desde cualquier lugar con conexión a internet</li>
+                                    <li><strong>Inclusión</strong>: Mayor diversidad de voces y perspectivas</li>
+                                    <li><strong>Transparencia</strong>: Acceso directo a información gubernamental</li>
+                                    <li><strong>Eficiencia</strong>: Reducción de tiempos y costos en trámites y consultas</li>
+                                    <li><strong>Trazabilidad</strong>: Seguimiento digital de procesos y decisiones públicas</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comparison-card challenges">
+                            <h3 class="comparison-card-title">Desafíos pendientes</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Brecha digital</strong>: 34% de la población sin acceso regular a internet</li>
+                                    <li><strong>Alfabetización digital</strong>: Necesidad de capacitación para uso efectivo</li>
+                                    <li><strong>Ciberseguridad</strong>: Protección de datos personales y sistemas</li>
+                                    <li><strong>Vinculación</strong>: Garantizar que la participación digital influya en decisiones reales</li>
+                                    <li><strong>Fragmentación</strong>: Múltiples plataformas no siempre interconectadas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content-block" id="plataformas-consulta">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="consultaIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#118AB2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#073B4C;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#consultaIconGrad)" />
+                            <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,10.5A1.5,1.5 0 0,1 13.5,12A1.5,1.5 0 0,1 12,13.5A1.5,1.5 0 0,1 10.5,12A1.5,1.5 0 0,1 12,10.5M7.5,10.5A1.5,1.5 0 0,1 9,12A1.5,1.5 0 0,1 7.5,13.5A1.5,1.5 0 0,1 6,12A1.5,1.5 0 0,1 7.5,10.5M16.5,10.5A1.5,1.5 0 0,1 18,12A1.5,1.5 0 0,1 16.5,13.5A1.5,1.5 0 0,1 15,12A1.5,1.5 0 0,1 16.5,10.5Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>1. Plataformas de consulta ciudadana</h2>
+                    
+                    <p>Las plataformas de consulta ciudadana representan uno de los avances más significativos en la democratización de la toma de decisiones públicas en México. Estos espacios digitales permiten a los ciudadanos expresar sus opiniones, proponer soluciones y participar en la definición de políticas públicas y proyectos gubernamentales.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="consultaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#118AB2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#073B4C;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#consultaGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Tipos de Consultas Digitales</text>
+                            
+                            <rect x="100" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="150" y="105" font-family="Arial" font-size="14" fill="#118AB2" text-anchor="middle">Encuestas</text>
+                            <text x="150" y="125" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Opinión pública</text>
+                            <text x="150" y="140" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">sobre temas específicos</text>
+                            
+                            <rect x="220" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="270" y="105" font-family="Arial" font-size="14" fill="#118AB2" text-anchor="middle">Presupuesto</text>
+                            <text x="270" y="125" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Participativo</text>
+                            <text x="270" y="140" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Asignación de recursos</text>
+                            
+                            <rect x="340" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="390" y="105" font-family="Arial" font-size="14" fill="#118AB2" text-anchor="middle">Legislación</text>
+                            <text x="390" y="125" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Colaborativa</text>
+                            <text x="390" y="140" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Propuestas normativas</text>
+                            
+                            <rect x="460" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="510" y="105" font-family="Arial" font-size="14" fill="#118AB2" text-anchor="middle">Planeación</text>
+                            <text x="510" y="125" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Urbana</text>
+                            <text x="510" y="140" font-family="Arial" font-size="10" fill="#118AB2" text-anchor="middle">Desarrollo de ciudades</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Principales plataformas nacionales</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Decide CDMX</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Plataforma de la Ciudad de México que permite a los ciudadanos proponer, debatir y votar sobre iniciativas para mejorar la ciudad.</p>
+                                <ul>
+                                    <li><strong>Presupuesto participativo</strong>: Los ciudadanos deciden el destino de hasta el 4% del presupuesto de cada alcaldía</li>
+                                    <li><strong>Consultas ciudadanas</strong>: Sobre temas relevantes para la ciudad</li>
+                                    <li><strong>Iniciativas ciudadanas</strong>: Propuestas que pueden convertirse en proyectos reales</li>
+                                </ul>
+                                <p>Desde su lanzamiento en 2019, ha registrado más de 500,000 participaciones en diferentes procesos de consulta.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Participa INAI</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Plataforma del Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales.</p>
+                                <ul>
+                                    <li><strong>Consultas públicas</strong>: Sobre políticas de transparencia y protección de datos</li>
+                                    <li><strong>Foros virtuales</strong>: Espacios de discusión sobre temas específicos</li>
+                                    <li><strong>Cocreación de políticas</strong>: Desarrollo colaborativo de lineamientos</li>
+                                </ul>
+                                <p>Ha facilitado la participación de más de 15,000 ciudadanos en la elaboración de políticas de transparencia y acceso a la información.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Gob.mx/participa</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Sección de participación ciudadana del portal nacional de gobierno.</p>
+                                <ul>
+                                    <li><strong>Consultas abiertas</strong>: Sobre diversos temas de interés nacional</li>
+                                    <li><strong>Encuestas</strong>: Para conocer la opinión ciudadana</li>
+                                    <li><strong>Foros temáticos</strong>: Discusiones sobre políticas públicas específicas</li>
+                                </ul>
+                                <p>Integra consultas de diferentes dependencias federales, centralizando la participación ciudadana a nivel nacional.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>Casos de éxito en participación digital</h3>
+                    
+                    <div class="comparison-cards">
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Presupuesto Participativo CDMX</h3>
+                            <div class="comparison-card-content">
+                                <p>Proceso anual donde los ciudadanos deciden el destino de una parte del presupuesto de sus colonias:</p>
+                                <ul>
+                                    <li><strong>Participación 2022</strong>: Más de 860,000 ciudadanos</li>
+                                    <li><strong>Proyectos ejecutados</strong>: 1,735 proyectos ciudadanos</li>
+                                    <li><strong>Presupuesto asignado</strong>: Aproximadamente 1,400 millones de pesos</li>
+                                    <li><strong>Principales categorías</strong>: Infraestructura urbana, seguridad, áreas verdes</li>
+                                </ul>
+                                <p>El 65% de los participantes utilizó la plataforma digital para votar, frente al 35% que lo hizo de manera presencial.</p>
+                            </div>
+                        </div>
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Consulta Plan Nacional de Desarrollo</h3>
+                            <div class="comparison-card-content">
+                                <p>Proceso de consulta para la elaboración del Plan Nacional de Desarrollo 2019-2024:</p>
+                                <ul>
+                                    <li><strong>Participantes</strong>: Más de 290,000 personas</li>
+                                    <li><strong>Propuestas recibidas</strong>: 13,600 propuestas específicas</li>
+                                    <li><strong>Foros realizados</strong>: 87 foros temáticos (presenciales y virtuales)</li>
+                                    <li><strong>Impacto</strong>: 31% de las propuestas ciudadanas fueron incorporadas en alguna medida al PND</li>
+                                </ul>
+                                <p>Primera vez que se utilizó una plataforma digital a escala nacional para la elaboración de este documento rector.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p>De acuerdo con el Índice de Gobierno Electrónico de la ONU, México ha mejorado su posición en 12 lugares en los últimos 5 años, en gran parte gracias a la implementación de estas plataformas de participación ciudadana digital.</p>
+                </article>
+
+                <article class="content-block" id="transparencia">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="transparenciaIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#FFD166;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#EF476F;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#transparenciaIconGrad)" />
+                            <path d="M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>2. Transparencia gubernamental y datos abiertos</h2>
+                    
+                    <p>La transparencia gubernamental digital ha transformado la relación entre ciudadanos y autoridades en México, facilitando el acceso a información pública, presupuestos, contratos y decisiones gubernamentales. Esta apertura no solo fortalece la rendición de cuentas, sino que también permite a la ciudadanía monitorear y evaluar el desempeño de sus gobernantes.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="transparenciaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#FFD166;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#EF476F;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#transparenciaGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Ecosistema de Transparencia Digital</text>
+                            
+                            <rect x="100" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="150" y="105" font-family="Arial" font-size="14" fill="#EF476F" text-anchor="middle">Portales de</text>
+                            <text x="150" y="125" font-family="Arial" font-size="12" fill="#EF476F" text-anchor="middle">Transparencia</text>
+                            <text x="150" y="140" font-family="Arial" font-size="10" fill="#EF476F" text-anchor="middle">Acceso a información</text>
+                            
+                            <rect x="220" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="270" y="105" font-family="Arial" font-size="14" fill="#EF476F" text-anchor="middle">Datos</text>
+                            <text x="270" y="125" font-family="Arial" font-size="12" fill="#EF476F" text-anchor="middle">Abiertos</text>
+                            <text x="270" y="140" font-family="Arial" font-size="10" fill="#EF476F" text-anchor="middle">Información reutilizable</text>
+                            
+                            <rect x="340" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="390" y="105" font-family="Arial" font-size="14" fill="#EF476F" text-anchor="middle">Contrataciones</text>
+                            <text x="390" y="125" font-family="Arial" font-size="12" fill="#EF476F" text-anchor="middle">Abiertas</text>
+                            <text x="390" y="140" font-family="Arial" font-size="10" fill="#EF476F" text-anchor="middle">Compras públicas</text>
+                            
+                            <rect x="460" y="80" width="100" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            <text x="510" y="105" font-family="Arial" font-size="14" fill="#EF476F" text-anchor="middle">Plataformas</text>
+                            <text x="510" y="125" font-family="Arial" font-size="12" fill="#EF476F" text-anchor="middle">Anticorrupción</text>
+                            <text x="510" y="140" font-family="Arial" font-size="10" fill="#EF476F" text-anchor="middle">Denuncia y seguimiento</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Plataformas nacionales de transparencia</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Plataforma Nacional de Transparencia (PNT)</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Sistema integral que concentra la información pública de todos los sujetos obligados del país.</p>
+                                <ul>
+                                    <li><strong>Solicitudes de información</strong>: Permite realizar y dar seguimiento a solicitudes</li>
+                                    <li><strong>SIPOT</strong>: Sistema de Portales de Obligaciones de Transparencia</li>
+                                    <li><strong>Gestión de medios de impugnación</strong>: Recursos de revisión</li>
+                                    <li><strong>Comunicación entre organismos</strong>: Sistema de comunicación entre sujetos obligados</li>
+                                </ul>
+                                <p>En 2022, se registraron más de 1.2 millones de solicitudes de información a través de la plataforma, un incremento del 23% respecto al año anterior.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>datos.gob.mx</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Portal de datos abiertos del Gobierno de México que concentra conjuntos de datos de las diferentes dependencias gubernamentales.</p>
+                                <ul>
+                                    <li><strong>Catálogo de datos</strong>: Más de 40,000 conjuntos de datos disponibles</li>
+                                    <li><strong>APIs</strong>: Interfaces para desarrolladores</li>
+                                    <li><strong>Visualizaciones</strong>: Herramientas para explorar datos</li>
+                                    <li><strong>Historias de datos</strong>: Análisis basados en datos abiertos</li>
+                                </ul>
+                                <p>Los conjuntos de datos más consultados están relacionados con presupuesto público, contrataciones gubernamentales y estadísticas de salud.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>CompraNet / Compranet 2.0</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Sistema electrónico de información pública gubernamental sobre adquisiciones, arrendamientos, servicios, obras públicas y servicios relacionados.</p>
+                                <ul>
+                                    <li><strong>Licitaciones públicas</strong>: Información sobre procesos de contratación</li>
+                                    <li><strong>Contratos</strong>: Registro y seguimiento de contratos públicos</li>
+                                    <li><strong>Proveedores</strong>: Directorio de proveedores gubernamentales</li>
+                                    <li><strong>Inconformidades</strong>: Registro y seguimiento de inconformidades</li>
+                                </ul>
+                                <p>En proceso de transformación hacia Compranet 2.0, con mejoras en usabilidad, transparencia y funcionalidades de análisis de datos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>Impacto de la transparencia digital</h3>
+                    
+                    <div class="comparison-cards">
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Casos de éxito</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Observatorio del Gasto COVID-19</strong>: Plataforma ciudadana que monitoreó más de 40,000 millones de pesos en contratos relacionados con la pandemia</li>
+                                    <li><strong>Mejora Regulatoria</strong>: Simplificación de 2,500 trámites gracias al análisis de datos abiertos sobre su eficiencia</li>
+                                    <li><strong>Contrataciones Abiertas CDMX</strong>: Incremento del 35% en la competencia de licitaciones tras la publicación de datos completos</li>
+                                    <li><strong>Fiscalización ciudadana</strong>: Identificación de irregularidades en obras públicas mediante el análisis de datos abiertos</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Indicadores de avance</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Índice Global de Datos Abiertos</strong>: México pasó del lugar 30 al 13 entre 2015 y 2022</li>
+                                    <li><strong>Solicitudes de información</strong>: Incremento anual promedio del 18% en los últimos 5 años</li>
+                                    <li><strong>Reutilización de datos</strong>: Más de 200 aplicaciones desarrolladas con datos abiertos gubernamentales</li>
+                                    <li><strong>Participación ciudadana</strong>: 65,000 ciudadanos participaron en la Política Nacional de Datos Abiertos</li>
+                                    <li><strong>Transparencia presupuestaria</strong>: Calificación de 82/100 en el Índice de Presupuesto Abierto 2021</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p>Según el Barómetro de Datos Abiertos, México se ha posicionado como líder regional en América Latina en materia de transparencia gubernamental digital, aunque aún enfrenta desafíos importantes en la calidad, actualización y usabilidad de los datos publicados.</p>
+                </article>
+
+                <article class="content-block" id="apps-gobierno">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="appsIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#073B4C;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#appsIconGrad)" />
+                            <path d="M4,3H20A2,2 0 0,1 22,5V20A2,2 0 0,1 20,22H4A2,2 0 0,0 2,20V5A2,2 0 0,0 4,3M4,7V10H8V7H4M10,7V10H14V7H10M20,10V7H16V10H20M4,12V15H8V12H4M4,20H8V17H4V20M10,12V15H14V12H10M10,20H14V17H10V20M20,20V17H16V20H20M20,12H16V15H20V12Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>3. Aplicaciones de gobierno electrónico</h2>
+                    
+                    <p>Las aplicaciones móviles gubernamentales han revolucionado la forma en que los ciudadanos interactúan con los servicios públicos en México. Estas herramientas digitales permiten realizar trámites, pagos, consultas y recibir servicios de manera ágil y sin necesidad de acudir físicamente a oficinas gubernamentales.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="appsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#073B4C;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#appsGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Uso de Apps Gubernamentales</text>
+                            
+                            <rect x="100" y="80" width="90" height="70" rx="5" fill="rgba(255,255,255,0.8)" />
+                            <text x="145" y="105" font-family="Arial" font-size="14" fill="#06D6A0" text-anchor="middle">Trámites</text>
+                            <text x="145" y="125" font-family="Arial" font-size="12" fill="#06D6A0" text-anchor="middle">Fiscales</text>
+                            <text x="145" y="140" font-family="Arial" font-size="10" fill="#06D6A0" text-anchor="middle">42%</text>
+                            
+                            <rect x="205" y="80" width="90" height="70" rx="5" fill="rgba(255,255,255,0.8)" />
+                            <text x="250" y="105" font-family="Arial" font-size="14" fill="#06D6A0" text-anchor="middle">Servicios</text>
+                            <text x="250" y="125" font-family="Arial" font-size="12" fill="#06D6A0" text-anchor="middle">Locales</text>
+                            <text x="250" y="140" font-family="Arial" font-size="10" fill="#06D6A0" text-anchor="middle">28%</text>
+                            
+                            <rect x="310" y="80" width="90" height="70" rx="5" fill="rgba(255,255,255,0.8)" />
+                            <text x="355" y="105" font-family="Arial" font-size="14" fill="#06D6A0" text-anchor="middle">Pagos</text>
+                            <text x="355" y="125" font-family="Arial" font-size="12" fill="#06D6A0" text-anchor="middle">Servicios</text>
+                            <text x="355" y="140" font-family="Arial" font-size="10" fill="#06D6A0" text-anchor="middle">18%</text>
+                            
+                            <rect x="415" y="80" width="90" height="70" rx="5" fill="rgba(255,255,255,0.8)" />
+                            <text x="460" y="105" font-family="Arial" font-size="14" fill="#06D6A0" text-anchor="middle">Consulta</text>
+                            <text x="460" y="125" font-family="Arial" font-size="12" fill="#06D6A0" text-anchor="middle">Información</text>
+                            <text x="460" y="140" font-family="Arial" font-size="10" fill="#06D6A0" text-anchor="middle">12%</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Aplicaciones destacadas a nivel nacional</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>SAT Móvil</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Aplicación oficial del Servicio de Administración Tributaria para gestiones fiscales.</p>
+                                <ul>
+                                    <li><strong>Facturación electrónica</strong>: Emisión y consulta de facturas</li>
+                                    <li><strong>Declaraciones</strong>: Presentación de declaraciones provisionales</li>
+                                    <li><strong>Citas</strong>: Programación de citas en oficinas del SAT</li>
+                                    <li><strong>Consultas</strong>: Situación fiscal, devoluciones, obligaciones</li>
+                                </ul>
+                                <p>Con más de 5 millones de descargas, ha permitido reducir en un 40% las visitas presenciales a oficinas del SAT para trámites básicos.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Mi IMSS Digital</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Aplicación del Instituto Mexicano del Seguro Social para trámites y servicios médicos.</p>
+                                <ul>
+                                    <li><strong>Citas médicas</strong>: Programación y seguimiento</li>
+                                    <li><strong>Consulta de información</strong>: Derechohabiencia, semanas cotizadas</li>
+                                    <li><strong>Ubicación de unidades</strong>: Hospitales y clínicas cercanas</li>
+                                    <li><strong>Vigencia de derechos</strong>: Consulta de vigencia</li>
+                                </ul>
+                                <p>Ha procesado más de 12 millones de citas médicas digitales desde su lanzamiento, aliviando la carga administrativa en clínicas.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>App CDMX</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Aplicación integral de servicios del Gobierno de la Ciudad de México.</p>
+                                <ul>
+                                    <li><strong>Trámites locales</strong>: Pagos de predial, agua, tenencia</li>
+                                    <li><strong>Movilidad</strong>: Información de transporte público</li>
+                                    <li><strong>Seguridad</strong>: Botón de pánico, reportes ciudadanos</li>
+                                    <li><strong>Servicios</strong>: Reportes de baches, luminarias, fugas</li>
+                                </ul>
+                                <p>Modelo de app gubernamental integral que ha sido replicado por otras entidades federativas por su efectividad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>Beneficios y desafíos de las apps gubernamentales</h3>
+                    
+                    <div class="comparison-cards">
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Beneficios comprobados</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Ahorro de tiempo</strong>: Reducción promedio del 70% en tiempo de trámites</li>
+                                    <li><strong>Disponibilidad 24/7</strong>: Acceso a servicios fuera de horarios de oficina</li>
+                                    <li><strong>Descentralización</strong>: Acceso desde cualquier ubicación geográfica</li>
+                                    <li><strong>Reducción de costos</strong>: Ahorro estimado de 320 millones de pesos anuales en operación gubernamental</li>
+                                    <li><strong>Trazabilidad</strong>: Seguimiento digital de trámites y solicitudes</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comparison-card challenges">
+                            <h3 class="comparison-card-title">Áreas de oportunidad</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Fragmentación</strong>: Multiplicidad de apps no integradas entre sí</li>
+                                    <li><strong>Usabilidad</strong>: Interfaces complejas para usuarios no familiarizados con tecnología</li>
+                                    <li><strong>Actualización</strong>: Mantenimiento irregular de algunas aplicaciones</li>
+                                    <li><strong>Seguridad</strong>: Necesidad de reforzar protección de datos personales</li>
+                                    <li><strong>Inclusión</strong>: Adaptación para personas con discapacidad y adultos mayores</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p>Según la Encuesta Nacional de Calidad e Impacto Gubernamental (ENCIG), el 63% de los usuarios de servicios públicos digitales reporta estar satisfecho con las aplicaciones gubernamentales, frente al 42% de satisfacción en trámites presenciales, lo que demuestra el impacto positivo de la digitalización.</p>
+                </article>
+
+                <article class="content-block" id="voto-electronico">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="votoIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#EF476F;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#118AB2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#votoIconGrad)" />
+                            <path d="M18,13H17.32L15.32,15H17.23L19,17H5L6.78,15H8.83L6.83,13H6L3,16V18H21V16L18,13M17,7.95C17,4.47 14.03,2 10.5,2C7.75,2 5.1,3.39 4.34,6.8C3.88,8.1 4,9.5 4,9.5C4,9.5 4.89,7.15 6.5,6.73C6.71,6.68 6.86,6.8 7,6.92C7.17,7.07 7.19,7.29 7.19,7.38C7.22,7.81 6.85,8.2 6.5,8.2C5.41,8.2 5,9.57 5,9.57C5,9.57 5.72,8.56 6.14,8.56C6.64,8.56 7,9.11 7,9.11C7,9.11 6.94,9.61 6.64,9.91C6.29,10.25 6.2,11.15 6.2,11.15C6.2,11.15 6.89,10.18 7.36,10.18C7.9,10.18 8.23,10.74 8.23,10.74C8.23,10.74 8.14,11.54 7.5,11.54C6.93,11.54 6.5,12.04 6.5,12.04C6.5,12.04 7.27,11.5 7.88,11.5C8.5,11.5 8.71,12.03 8.71,12.03C8.71,12.03 8.94,11.53 9.12,11.24C9.23,11.05 9.5,11 9.5,11C9.5,11 9.75,11.05 9.87,11.24C10.05,11.53 10.31,12.12 10.31,12.12C10.31,12.12 10.5,11.5 11.15,11.5C11.71,11.5 12.5,12.04 12.5,12.04C12.5,12.04 12.07,11.54 11.5,11.54C10.88,11.54 10.76,10.74 10.76,10.74C10.76,10.74 11.1,10.18 11.63,10.18C12.1,10.18 12.79,11.15 12.79,11.15C12.79,11.15 12.7,10.25 12.36,9.91C12.06,9.61 12,9.11 12,9.11C12,9.11 12.36,8.56 12.86,8.56C13.27,8.56 14,9.57 14,9.57C14,9.57 13.59,8.2 12.5,8.2C12.15,8.2 11.78,7.81 11.81,7.38C11.81,7.29 11.82,7.07 12,6.92C12.14,6.8 12.29,6.68 12.5,6.73C14.1,7.15 15,9.5 15,9.5C15,9.5 15.12,8.1 14.66,6.8C14.26,5.39 13.07,4.5 11.7,4.5C9.12,4.5 7,6.81 7,9.5H9C9,8.34 9.93,7.41 11.1,7.41C12.26,7.41 13.2,8.34 13.2,9.5H15C15,7.97 14.22,6.62 13,5.84C15.47,5.11 17,7.33 17,7.95Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>4. Voto electrónico y democracia digital</h2>
+                    
+                    <p>El voto electrónico representa una de las fronteras más prometedoras y a la vez desafiantes de la participación ciudadana digital en México. Esta tecnología busca modernizar los procesos electorales, haciéndolos más accesibles, eficientes y transparentes, aunque su implementación ha sido gradual y cautelosa debido a consideraciones de seguridad y confianza.</p>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="votoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#EF476F;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#118AB2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#votoGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Evolución del Voto Electrónico en México</text>
+                            
+                            <line x1="100" y1="100" x2="500" y2="100" stroke="white" stroke-width="2" stroke-dasharray="5,5" />
+                            
+                            <circle cx="150" cy="100" r="10" fill="white" />
+                            <text x="150" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">2012</text>
+                            <text x="150" y="130" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Primeras</text>
+                            <text x="150" y="145" font-family="Arial" font-size="10" fill="white" text-anchor="middle">pruebas piloto</text>
+                            
+                            <circle cx="250" cy="100" r="10" fill="white" />
+                            <text x="250" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">2018</text>
+                            <text x="250" y="130" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Urnas</text>
+                            <text x="250" y="145" font-family="Arial" font-size="10" fill="white" text-anchor="middle">electrónicas</text>
+                            
+                            <circle cx="350" cy="100" r="10" fill="white" />
+                            <text x="350" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">2021</text>
+                            <text x="350" y="130" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Implementación</text>
+                            <text x="350" y="145" font-family="Arial" font-size="10" fill="white" text-anchor="middle">parcial</text>
+                            
+                            <circle cx="450" cy="100" r="10" fill="white" />
+                            <text x="450" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">2024+</text>
+                            <text x="450" y="130" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Expansión</text>
+                            <text x="450" y="145" font-family="Arial" font-size="10" fill="white" text-anchor="middle">nacional</text>
+                        </svg>
+                    </div>
+                    
+                    <h3>Modalidades de voto electrónico en México</h3>
+                    
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Urnas electrónicas</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Dispositivos físicos ubicados en casillas electorales que permiten emitir, registrar y contabilizar votos de manera electrónica.</p>
+                                <ul>
+                                    <li><strong>Implementación actual</strong>: Utilizadas en elecciones locales en Jalisco, Coahuila, CDMX y Aguascalientes</li>
+                                    <li><strong>Características</strong>: Pantalla táctil, impresión de comprobante físico, batería de respaldo</li>
+                                    <li><strong>Ventajas</strong>: Conteo inmediato, reducción de errores humanos, accesibilidad para personas con discapacidad</li>
+                                    <li><strong>Seguridad</strong>: Sin conexión a internet, auditorías pre y post electorales, respaldo físico de votos</li>
+                                </ul>
+                                <p>En las elecciones intermedias de 2021, se utilizaron más de 1,000 urnas electrónicas en diferentes estados, con una tasa de éxito del 98.7%.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Voto por internet</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Sistema que permite emitir el voto desde cualquier dispositivo con conexión a internet, principalmente implementado para mexicanos residentes en el extranjero.</p>
+                                <ul>
+                                    <li><strong>Implementación actual</strong>: Disponible para votantes en el extranjero desde 2021</li>
+                                    <li><strong>Proceso</strong>: Registro previo, autenticación multifactor, emisión del voto cifrado</li>
+                                    <li><strong>Ventajas</strong>: Accesibilidad global, reducción de costos logísticos, mayor participación</li>
+                                    <li><strong>Desafíos</strong>: Garantizar el secreto del voto, prevenir coerción, asegurar disponibilidad</li>
+                                </ul>
+                                <p>En 2021, más de 18,000 mexicanos en el extranjero utilizaron esta modalidad, representando un incremento del 300% respecto a la participación por correo postal.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Aplicaciones para consultas</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Plataformas digitales para consultas ciudadanas no vinculantes, plebiscitos y ejercicios de participación directa.</p>
+                                <ul>
+                                    <li><strong>Implementación actual</strong>: Utilizadas por gobiernos locales y federal para consultas específicas</li>
+                                    <li><strong>Ejemplos</strong>: App Consulta Ciudadana CDMX, plataforma Decide CDMX, Consulta Nacional</li>
+                                    <li><strong>Ventajas</strong>: Facilidad de implementación, bajo costo, rapidez en resultados</li>
+                                    <li><strong>Limitaciones</strong>: Menor nivel de seguridad, representatividad cuestionable, brecha digital</li>
+                                </ul>
+                                <p>Estas aplicaciones han sido utilizadas para más de 50 consultas temáticas en los últimos tres años, con participación acumulada de más de 5 millones de ciudadanos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>Perspectivas y desafíos</h3>
+                    
+                    <div class="comparison-cards">
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Beneficios potenciales</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Inclusión</strong>: Mayor participación de jóvenes, personas con discapacidad y residentes en el extranjero</li>
+                                    <li><strong>Eficiencia</strong>: Reducción estimada del 40% en costos operativos electorales a largo plazo</li>
+                                    <li><strong>Rapidez</strong>: Resultados preliminares en minutos en lugar de horas</li>
+                                    <li><strong>Precisión</strong>: Eliminación de errores humanos en el conteo y cómputo</li>
+                                    <li><strong>Sostenibilidad</strong>: Reducción significativa en el uso de papel y otros recursos</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comparison-card challenges">
+                            <h3 class="comparison-card-title">Retos pendientes</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Confianza pública</strong>: 47% de los mexicanos aún expresa desconfianza hacia el voto electrónico</li>
+                                    <li><strong>Ciberseguridad</strong>: Necesidad de sistemas robustos contra ataques informáticos</li>
+                                    <li><strong>Marco legal</strong>: Actualización de la legislación electoral para contemplar nuevas tecnologías</li>
+                                    <li><strong>Brecha digital</strong>: Garantizar acceso equitativo en zonas rurales y marginadas</li>
+                                    <li><strong>Transparencia</strong>: Desarrollo de mecanismos de auditoría comprensibles para la ciudadanía</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p>De acuerdo con el Instituto Nacional Electoral (INE), se proyecta que para 2030 al menos el 50% de las casillas electorales en México utilizarán alguna forma de voto electrónico, lo que representaría una transformación significativa en la forma en que se ejerce la democracia en el país.</p>
+                </article>
+
+                <article class="content-block" id="conclusiones">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                            <defs>
+                                <linearGradient id="conclusionIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#073B4C;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#118AB2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="12" cy="12" r="10" fill="url(#conclusionIconGrad)" />
+                            <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z" fill="white" />
+                        </svg>
+                    </div>
+                    <h2>El futuro de la participación ciudadana digital</h2>
+                    
+                    <p>La participación ciudadana digital en México se encuentra en un punto de inflexión, con avances significativos en los últimos años pero también con importantes desafíos por superar. El ecosistema digital de participación continúa evolucionando, integrando nuevas tecnologías y adaptándose a las necesidades y expectativas de una ciudadanía cada vez más conectada y exigente.</p>
+                    
+                    <div class="comparison-cards">
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Tendencias emergentes</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Inteligencia artificial</strong>: Asistentes virtuales para orientar la participación ciudadana</li>
+                                    <li><strong>Blockchain</strong>: Implementación para garantizar transparencia e inmutabilidad en consultas</li>
+                                    <li><strong>Identidad digital</strong>: Desarrollo de sistemas unificados de autenticación ciudadana</li>
+                                    <li><strong>Analítica de datos</strong>: Uso de big data para mejorar políticas públicas basadas en participación</li>
+                                    <li><strong>Realidad aumentada</strong>: Visualización interactiva de proyectos urbanos para consulta ciudadana</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comparison-card advantages">
+                            <h3 class="comparison-card-title">Próximos pasos</h3>
+                            <div class="comparison-card-content">
+                                <ul>
+                                    <li><strong>Integración de plataformas</strong>: Creación de un ecosistema interconectado de participación</li>
+                                    <li><strong>Educación digital</strong>: Programas de alfabetización para reducir la brecha participativa</li>
+                                    <li><strong>Legislación actualizada</strong>: Marco legal que respalde y regule la participación digital</li>
+                                    <li><strong>Coproducción de políticas</strong>: Mecanismos de colaboración directa ciudadanía-gobierno</li>
+                                    <li><strong>Evaluación de impacto</strong>: Sistemas para medir la efectividad real de la participación</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-graphic">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="200">
+                            <defs>
+                                <linearGradient id="conclusionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#073B4C;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#118AB2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="30" width="500" height="140" rx="20" fill="url(#conclusionGrad)" />
+                            <text x="300" y="60" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Impacto de la Participación Digital</text>
+                            
+                            <rect x="100" y="80" width="400" height="70" rx="10" fill="rgba(255,255,255,0.8)" />
+                            
+                            <line x1="100" y1="115" x2="500" y2="115" stroke="#073B4C" stroke-width="1" stroke-dasharray="3,3" />
+                            
+                            <text x="150" y="105" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">Participación</text>
+                            <text x="250" y="105" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">Transparencia</text>
+                            <text x="350" y="105" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">Eficiencia</text>
+                            <text x="450" y="105" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">Confianza</text>
+                            
+                            <text x="150" y="135" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">+35%</text>
+                            <text x="250" y="135" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">+48%</text>
+                            <text x="350" y="135" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">+62%</text>
+                            <text x="450" y="135" font-family="Arial" font-size="12" fill="#073B4C" text-anchor="middle">+27%</text>
+                        </svg>
+                    </div>
+                    
+                    <p>La transformación digital de la participación ciudadana no es solo una cuestión tecnológica, sino fundamentalmente democrática. El verdadero éxito de estas herramientas se medirá no por su sofisticación técnica, sino por su capacidad para crear una democracia más inclusiva, responsiva y cercana a las necesidades de todos los mexicanos.</p>
+                    
+                    <p>Como señala el Informe de Gobierno Digital de la OCDE, "México ha demostrado un compromiso significativo con la digitalización de la participación ciudadana, posicionándose como un referente regional en la materia. El desafío ahora es asegurar que estas innovaciones tecnológicas se traduzcan en mejoras tangibles en la calidad de vida de los ciudadanos y en el fortalecimiento de las instituciones democráticas."</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">tefrex.com</a>
+                    <p>Información útil sobre telecomunicaciones en México</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="about.html">Sobre Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="terms.html">Términos de Uso</a></li>
+                        <li><a href="privacy-policy.html">Política de Privacidad</a></li>
+                        <li><a href="privacy-cookies.html">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 tefrex.com. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

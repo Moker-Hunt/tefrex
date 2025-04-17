@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+  <defs>
+    <linearGradient id="reviewGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD166;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8D99AE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#reviewGrad)" d="M20,2H4C2.9,2,2,2.9,2,4v18l4-4h14c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M20,16H5.17L4,17.17V4h16V16z"/>
+  <path fill="url(#reviewGrad)" d="M12,15l1.57-4.36l4.43-0.63l-3.21-3.13l0.76-4.42L12,4.25L8.46,2.46l0.76,4.42L6,9.99l4.43,0.63L12,15z"/>
+</svg>
